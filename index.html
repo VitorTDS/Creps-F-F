@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Creps F&F</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background: #ff7f00; /* Laranja forte */
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #ff7f00;
+      padding-bottom: 5px;
+      margin-top: 40px;
+      color: #ff7f00;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #fff;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .crepe-name {
+      font-weight: bold;
+    }
+    .price {
+      background: #ffa347; /* Laranja claro */
+      color: white;
+      padding: 5px 12px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .whatsapp-btn {
+      display: block;
+      width: fit-content;
+      margin: 40px auto;
+      padding: 12px 24px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+      transition: background-color 0.3s;
+    }
+    .whatsapp-btn:hover {
+      background-color: #1ebe5d;
+    }
+    @media (max-width: 600px) {
+      li {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .price {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Creps F&F
+  </header>
+
+  <div class="container">
+
+    <h2>Creps Salgados</h2>
+    <ul>
+      <li><span class="crepe-name">Misto (Salsicha e Queijo)</span><span class="price">R$ 6,00</span></li>
+      <li><span class="crepe-name">Queijo</span><span class="price">R$ 6,00</span></li>
+      <li><span class="crepe-name">Salsicha</span><span class="price">R$ 6,00</span></li>
+      <li><span class="crepe-name">Frango</span><span class="price">R$ 7,00</span></li>
+      <li><span class="crepe-name">Frango c/ Queijo</span><span class="price">R$ 8,00</span></li>
+      <li><span class="crepe-name">Frango/Banana/Queijo</span><span class="price">R$ 8,00</span></li>
+      <li><span class="crepe-name">Carne De Sol</span><span class="price">R$ 7,00</span></li>
+      <li><span class="crepe-name">Carne De Sol/Banana/Queijo</span><span class="price">R$ 8,00</span></li>
+      <li><span class="crepe-name">Carne De Sol C/Queijo</span><span class="price">R$ 8,00</span></li>
+      <li><span class="crepe-name">Calabresa C/Queijo</span><span class="price">R$ 8,00</span></li>
+      <li><span class="crepe-name">Calabresa</span><span class="price">R$ 7,00</span></li>
+      <li><span class="crepe-name">Pizza</span><span class="price">R$ 7,00</span></li>
+    </ul>
+
+    
+
+    <h2>Creps Doces</h2>
+    <ul>
+      <li><span class="crepe-name">Banana</span><span class="price">R$ 6,00</span></li>
+      <li><span class="crepe-name">Banana C/ Queijo</span><span class="price">R$ 7,00</span></li>
+      <li><span class="crepe-name">Doce De Leite</span><span class="price">R$ 6,00</span></li>
+      <li><span class="crepe-name">Romeu e Julieta</span><span class="price">R$ 7,00</span></li>
+      <li><span class="crepe-name">Chocolate</span><span class="price">R$ 6,00</span></li>
+    </ul>
+
+    <h2>Bebidas</h2>
+    <ul>
+      <li><span class="crepe-name">Refrigerante Lata</span><span class="price">R$ 6,00</span></li>
+      <li><span class="crepe-name">Refrigerante Mini</span><span class="price">R$ 4,00</span></li>
+      <li><span class="crepe-name">Água Mineral (500ml)</span><span class="price">R$ 4,00</span></li>
+      <li><span class="crepe-name">Água com Gás</span><span class="price">R$ 5,00</span></li>
+    </ul>
+
+    <a href="https://wa.me/5589994035671?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido%20de%20crepe%20🍽️" target="_blank" class="whatsapp-btn">
+      Fazer pedido no WhatsApp
+    </a>
+
+  </div>
+</body>
+</html>
